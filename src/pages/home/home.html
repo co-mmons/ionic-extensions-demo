@@ -1,0 +1,28 @@
+<ion-header>
+
+    <ion-navbar>
+
+        <ion-title>Home</ion-title>
+
+    </ion-navbar>
+
+</ion-header>
+
+<ion-content>
+
+    <ion-list>
+        <ion-item>
+            <ion-label stacked>Test selecta</ion-label>
+            <ionx-select item-content placeholder="Wybierz kraj">
+                <ion-option *ngFor="let option of selectOptions" [value]="option.value">{{option.label}}</ion-option>
+            </ionx-select>
+        </ion-item>
+        <ion-item>
+            <ion-label stacked>Test selecta</ion-label>
+            <ion-select item-content placeholder="Wybierz kraj">
+                <ion-option *ngFor="let option of selectOptions" [value]="option.value">{{option.label}}</ion-option>
+            </ion-select>
+        </ion-item>
+    </ion-list>
+
+</ion-content>

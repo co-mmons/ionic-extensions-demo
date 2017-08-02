@@ -1,0 +1,10 @@
+$font-path: "../assets/fonts";
+
+@import "ionic.globals";
+@import "ionic.theme.default";
+
+@import "ionicons";
+@import "roboto";
+@import "noto-sans";
+
+@import "./node_modules/@co.mmons/ionic-extensions/select/select";
